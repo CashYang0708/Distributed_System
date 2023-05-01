@@ -1,0 +1,10 @@
+.:1053 {
+    forward . 8.8.8.8:53
+    errors
+    log
+}
+nccu.lab:1053 {
+    file db.nccu.lab
+    errors
+    log
+}
